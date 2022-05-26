@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    
+}
+input {
+    font-family: 'Poppins';
+}
+
+.konten {
+    position: relative;
+    width: 100%;
+    background-color: #FFF;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.form_konten {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logres {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    width: 50%;
+    transition: 1s 0.7s ease-in-out;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    transition: all 0.2s 0.7s;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+form.daftar_form {
+    opacity: 0;
+    z-index: 1;
+}
+
+form.login_form {
+    z-index: 2;
+}
+
+.judul {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.input_1 {
+    max-width: 380px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+    box-shadow: inset 3px 3px 3px #cbced1;
+}
+
+.input_1 i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.input_1 input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.input_1 input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.platform {
+    padding: 0.7rem 0;
+    font-size: 1rem;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+}
+
+.ikon-media {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.ikon-media:hover {
+    color: #FF5D5D;
+    border-color: #FF5D5D;
+}
+
+.tbl_tbl {
+    width: 160px;
+    background-color: #fff;
+    border: 1px solid #FF5D5D;
+    height: 49px;
+    border-radius: 49px;
+    color: #FF5D5D;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 20px;
+}
+
+.tbl {
+    width: 160px;
+    background-color: #FF5D5D;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tbl:hover {
+    text-decoration: underline;
+}
+
+.tbl_tbl:hover {
+    text-decoration: underline;
+    background-color: #FF5D5D;
+    color: #FFF;
+}
+.konten_2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.konten:before {
+    content: "";
+    position: absolute;
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(-45deg, #FFC3C3 0%, #FF5D5D 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: 6;
+}
+
+.gam {
+    width: 300px;
+    height: 400px;
+    transition: transform 1.1s ease-in-out;
+    transition-delay: 0.4s;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.gam:hover {
+    width: 320px;
+    height: 420px;
+}
+
+.kon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align: center;
+    z-index: 6;
+}
+
+.konten_kiri {
+    pointer-events: all;
+    padding: 3rem 17% 2rem 12%;
+}
+
+.konten_kanan {
+    pointer-events: none;
+    padding: 3rem 12% 2rem 17%;
+}
+
+.kon .kont {
+    color: #fff;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.6s;
+}
+
+.kon h3 {
+    font-weight: 600;
+    line-height: 1;
+    font-size: 1.5rem;
+}
+
+.kon p {
+    font-size: 0.95rem;
+    padding: 0.7rem 0;
+}
+
+.tbl_A {
+    width: 160px;
+    background-color: #FF5D5D;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.tbl_A.transparent {
+    margin: 0;
+    background: none;
+    border: 1.5px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.tbl_A:hover {
+    background-color: #fff;
+    color: #FF5D5D;
+}
+
+.konten_kanan .gam, .konten_kanan .kont {
+transform: translateX(800px);
+}
+
+.konten.daftar_tbl-mode:before {
+    transform: translate(100%, -50%);
+    right: 52%;
+}
+
+.konten.daftar_tbl-mode .konten_kiri .gam,
+.konten.daftar_tbl-mode .konten_kiri .kont {
+    transform: translateX(-800px);
+}
+
+.konten.daftar_tbl-mode .logres {
+    left: 25%;
+}
+
+.konten.daftar_tbl-mode form.daftar_form {
+    opacity: 1;
+    z-index: 2;
+}
+
+.konten.daftar_tbl-mode form.login_form {
+    opacity: 0;
+    z-index: 1;
+}
+
+.konten.daftar_tbl-mode .konten_kanan .gam,
+.konten.daftar_tbl-mode .konten_kanan .kont {
+    transform: translateX(0%);
+}
+
+.konten.daftar_tbl-mode .konten_kiri {
+    pointer-events: none;
+}
+
+.konten.daftar_tbl-mode .konten_kanan {
+    pointer-events: all;
+}
+
+.pesan {
+    font-family: 'Poppins Reguler';
+    font-size: 18px;
+    color: #d10d0d;
+    font-style: italic;
+}
+
+.gam {
+    margin-top: 15px;
+}

@@ -1,0 +1,203 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    background-color: #FFC3C3;
+}
+
+.wrapper {
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.logo img {
+    width : 50px;
+    height: 50px;
+}
+
+.logo p {
+    font-size: 25px;
+    font-family: 'Poppins SemiBold';
+    margin-left: 55px;
+    margin-top: -95px;
+    color: #000;
+    
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: -80px;
+    padding: 0px;
+    overflow: hidden;
+    margin-right: 480px;
+    
+}
+
+nav ul li {
+    float: left;
+    
+}
+
+nav ul li a {
+    color: #000;
+    font-size: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profil {
+    float: right;
+    margin-top: -75px;
+}
+
+.profil img {
+    width: 20px;
+    height: 20px;
+}
+
+.profil p {
+    margin-left: 30px;
+    margin-top: -85px;
+}
+
+.profil .garis {
+    margin-left: 130px;
+    margin-top: -80px;
+}
+
+.profil .akun {
+    width: 20px;
+    height: 20px;
+    margin-left: 130px;
+    margin-top: -80px;
+    margin-right: 70px;
+}
+
+.garis img {
+    width: 240px;
+    height: 50px;
+    float: right;
+    margin-top: -65px;
+    margin-right: 40px;
+}
+
+.konten {
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 120px;
+    font-family: "Poppins ExtraBold";
+    font-size: 40px;
+}
+
+.span_1 {
+    color: #FF7E00;
+}
+
+.span_2 {
+    color: #fff;
+}
+
+.p_1 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+a.kon_1 {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #FFC3C3;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+a.kon_2 {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    background: #000;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #fff;
+}
+
+.kon_1:hover {
+    text-decoration: underline;
+}
+
+.kon_2:hover {
+    text-decoration: underline;
+}
+
+.gambar img {
+    width: 430px;
+    height: 540px;
+    float: right;
+    margin-top: -400px;
+    margin-right: 170px;
+}
+
+.media {
+    display: flex;
+    justify-content: left;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.ikon-media {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.ikon-media:hover {
+    color: #FF5D5D;
+    border-color: #FF5D5D;
+}

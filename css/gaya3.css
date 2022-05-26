@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background: #FFC3C3;
+    list-style: none;
+}
+
+.kelas {
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-family: 'Poppins SemiBold';
+}
+
+input {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+    background: transparent;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.label_1 .input_1 {
+    display: flex;
+}
+
+button, .btn {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgb(122, 122, 122);
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 5px;
+}
+
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background: #000;
+    color: #fff;
+}
+
+.panah img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transform: rotate(180deg);
+}
+
+.kata {
+    float: right;
+    text-decoration: none;
+    font-family: 'Poppins SemiBold';
+    color: #000;
+    margin-right: 74rem;
+    margin-top: -45px;
+    font-size: 24px;
+}
+
+.kata:hover {
+    text-decoration: underline;
+}
+
+.cover {
+    width: 400px;
+    height: 490px;
+    float: right;
+    margin-right: 15rem;
+    margin-top: -30rem;
+}
+
+.input-1 {
+    margin-left: -20px;
+}
+
+.gagam {
+    width: 260px;
+    height: 400px;
+    float: right;
+    margin-right: 22rem;
+    margin-top: -29rem;
+    border-radius: 30px;
+}
+
+.garis {
+    float: right;
+    border-radius: 30px;
+    height: 420px;
+    width: 380px;
+    padding: 50px;
+    z-index: 200;
+    transition: 1.25s;
+    background: #FF8C8C;
+    overflow: hidden;
+    box-shadow: 6px 6px 13px #a7aaaf;
+    margin-right: 15rem;
+    margin-top: -25rem;
+}
